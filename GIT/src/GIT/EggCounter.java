@@ -22,7 +22,7 @@ public class EggCounter {
 		int size;
 		
 		do {
-			System.out.print("Enter egg quality: ");
+			System.out.print("Enter egg markings: ");
 			weight = console.nextDouble();
 			console.nextLine();
 			size = sizeEgg(weight);
